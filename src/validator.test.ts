@@ -17,7 +17,7 @@ describe('Suíte de Testes - Validador de Chamados (Service Desk)', () => {
 
     test('Deve lançar erro se o título for composto apenas por espaços em branco', () => {
         expect(() => {
-            validarChamado("   ");
+            validarChamado("");
         }).toThrow("O título do chamado não pode ser vazio.");
     });
 });

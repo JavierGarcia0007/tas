@@ -16,4 +16,4 @@ function validarChamado(titulo: string): boolean {
 
 export default validarChamado;
 
-console.log(validarChamado("Teste de chamado"));
+console.log(validarChamado("teste"));
